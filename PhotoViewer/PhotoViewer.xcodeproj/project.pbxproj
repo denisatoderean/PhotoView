@@ -107,6 +107,7 @@
 		92C842FB197FAF0700EC3F81 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				92C84327197FB10400EC3F81 /* Resources */,
 				92C84304197FAF0700EC3F81 /* DTAppDelegate.h */,
 				92C84305197FAF0700EC3F81 /* DTAppDelegate.m */,
 				92C84307197FAF0700EC3F81 /* Images.xcassets */,
@@ -142,6 +143,13 @@
 				92C84317197FAF0700EC3F81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C84327197FB10400EC3F81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +448,7 @@
 				92C84320197FAF0700EC3F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92C84321197FAF0700EC3F81 /* Build configuration list for PBXNativeTarget "PhotoViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				92C84323197FAF0700EC3F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
