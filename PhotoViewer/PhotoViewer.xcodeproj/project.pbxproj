@@ -19,6 +19,7 @@
 		92C84311197FAF0700EC3F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C842F9197FAF0700EC3F81 /* UIKit.framework */; };
 		92C84319197FAF0700EC3F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C84317197FAF0700EC3F81 /* InfoPlist.strings */; };
 		92C8431B197FAF0700EC3F81 /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C8431A197FAF0700EC3F81 /* PhotoViewerTests.m */; };
+		92C84326197FB09500EC3F81 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C84325197FB09500EC3F81 /* DTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		92C84316197FAF0700EC3F81 /* PhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
 		92C84318197FAF0700EC3F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92C8431A197FAF0700EC3F81 /* PhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerTests.m; sourceTree = "<group>"; };
+		92C84324197FB09500EC3F81 /* DTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTViewController.h; path = Classes/DTViewController.h; sourceTree = "<group>"; };
+		92C84325197FB09500EC3F81 /* DTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTViewController.m; path = Classes/DTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				92C84304197FAF0700EC3F81 /* DTAppDelegate.h */,
 				92C84305197FAF0700EC3F81 /* DTAppDelegate.m */,
 				92C84307197FAF0700EC3F81 /* Images.xcassets */,
+				92C84324197FB09500EC3F81 /* DTViewController.h */,
+				92C84325197FB09500EC3F81 /* DTViewController.m */,
 				92C842FC197FAF0700EC3F81 /* Supporting Files */,
 			);
 			path = PhotoViewer;
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C84306197FAF0700EC3F81 /* DTAppDelegate.m in Sources */,
+				92C84326197FB09500EC3F81 /* DTViewController.m in Sources */,
 				92C84302197FAF0700EC3F81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
